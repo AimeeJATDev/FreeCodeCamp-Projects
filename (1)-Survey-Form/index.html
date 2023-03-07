@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Please answer the questions below in this survey form</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name <input type="text" id="name" placeholder="Enter Name" required/></label>
+        <label id="email-label">Email <input type="email" id="email" placeholder="Enter Email" required /></label>
+        <label id="number-label">Age <input type="number" id="number" min="13" max="200" placeholder="Enter Age"></label>
+        <label> Which option best describes your current role?
+          <select id="dropdown">
+            <option>Select current role</option>
+            <option>Student</option>
+            <option>Full Time Job</option>
+            <option>Full Time Learner</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Do you like programming?</label>
+        <label><input type="radio" name="radio-option" value="yes"/>Yes</label>
+        <label><input type="radio" name="radio-option" value="sort-of"/>Sort of</label>
+        <label><input type="radio" name="radio-option" value="no"/>No</label>
+      </fieldset>
+      <fieldset>
+        <label>What parts of the day do you enjoy most?</label>
+        <label><input type="checkbox" value="morning"/>Morning</label>
+        <label><input type="checkbox" value="afternoon"/>Afternoon</label>
+        <label><input type="checkbox" value="evening"/>Evening</label>
+        <label>Comments?<textarea></textarea></label>
+      </fieldset>
+      <input type="submit" id="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>

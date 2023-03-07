@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    max-width: 500px;
+    min-width: 200px;
+    margin: auto;
+    color: white;
+  }
+  
+  div {
+    background-color: #0059b3;
+    padding: 5px 10px;
+    }
+  
+  h1, p {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    
+  }
+  
+  fieldset {
+    border: 2px solid #0059b3;
+    background-color: #0066cc;
+  }
+  
+  label {
+    display: block;
+    width: 100%;
+    padding: 10px 1px;
+    
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 5px;
+    background-color: #0059b3;
+    border-color: #0059b3;
+    color: white;
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    width: unset;
+  }
+  
+  input[type="submit"] {
+    background-color: #004080;
+  }
