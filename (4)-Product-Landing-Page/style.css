@@ -1,0 +1,93 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  
+  @media (max-width: 300px) {
+    #header-img {
+      margin: 60px;
+      margin-bottom: 0;
+    }
+  }
+  
+  header {
+    display: flex;
+  }
+  
+  #header-img {
+    margin-top: 10px;
+    margin-right: 50px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .spacer {
+    height: 100px;
+  }
+  
+  #nav-bar {
+    background-color: #f2f2f2;
+    width: 100%;
+    position: fixed;
+  }
+  
+  #nav-bar ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .nav-link {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav-link:hover {
+    color: black;
+    background-color: white;
+  }
+  
+  .nav-link:visited {
+    color: black;
+  }
+  
+  #email,
+  #submit {
+    display: flex;
+    margin: auto;
+  }
+  
+  #submit {
+    margin-top: 20px;
+  }
+  
+  form > h2 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  iframe {
+    margin: 100px;
+    width: 400px;
+    height: 200px;
+  }
+  
+  #features h2,
+  #demo h2,
+  #pricing h2 {
+    margin-left: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  #pricing {
+    margin-top: 10px;
+  }
+  
