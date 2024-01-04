@@ -1,1 +1,1 @@
-.
+Repo to showcase FreeCodeCamp Projects
